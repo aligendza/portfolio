@@ -17,16 +17,13 @@ html, body{
     padding-right: 25 pix;
 }
 
-.navbar-brand{
-    font-size: 120% !important;
-    padding-right: 25 pix !important;
+#navicon{
+    font-size: 140% !important;
+    padding-right: 25 pix !important; 
+    text-align: left; 
 }
 
 #navicon:hover{
-    color:rgb(38, 129, 129) !important;
-}
-
-.navbar-brand hover{
     color:rgb(38, 129, 129) !important;
 }
 
@@ -54,6 +51,15 @@ html, body{
     background-image: url('./assets/lakeSuperior.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#my-name{
+    letter-spacing: 0.05em;
+}
+
+#web-dp{
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
 }
 
 .whitetype{
