@@ -1,6 +1,54 @@
 /* .container {
     background-image: url('projects/website_portfolio/assets/lakeSuperior.jpg');
 } */
+html, body{
+    font-family: "Source Sans Pro", sans-serif;
+    color:rgb(18, 65, 65);
+    /* height: 60%;
+    width: 100%; */
+    font-size: 1.05em !important;
+}
+
+.navbar{
+    padding: 1.2 rem;
+}
+
+.navbar-nav li{
+    padding-right: 25 pix;
+}
+
+.navbar-brand{
+    font-size: 120% !important;
+    padding-right: 25 pix !important;
+}
+
+#navicon:hover{
+    color:rgb(38, 129, 129) !important;
+}
+
+.navbar-brand hover{
+    color:rgb(38, 129, 129) !important;
+}
+
+.nav-link{
+    font-size: 1.2em !important; 
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr{
+    border-top: 3px solid rgb(38, 129, 129);
+    width: 82%;
+    margin-bottom: 1 rem;
+    margin-top: .3 rem;
+}
 
 .jumbotron{
     background-image: url('./assets/lakeSuperior.jpg');
@@ -12,8 +60,13 @@
     color: white;
 }
 
+.headshot{
+    /* margin-top: 57px; */
+    margin-top: 11.1%;
+}
+
 .btn-primary{
-    background-color: rgb(27, 139, 139);
+    background-color: rgb(38, 129, 129);
     border: 1px solid #243033 
 }
 
